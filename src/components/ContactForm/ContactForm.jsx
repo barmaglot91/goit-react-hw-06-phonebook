@@ -62,7 +62,7 @@ export const ContactForm = () => {
       />
       <input
         type="tel"
-        name="number"
+        name="Number"
         value={number}
         onChange={handleChange}
         placeholder="number"
