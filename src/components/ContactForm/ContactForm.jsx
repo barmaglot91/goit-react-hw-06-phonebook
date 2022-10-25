@@ -62,7 +62,7 @@ export const ContactForm = () => {
       />
       <input
         type="tel"
-        name="Number"
+        name="number"
         value={number}
         onChange={handleChange}
         placeholder="number"
@@ -74,3 +74,9 @@ export const ContactForm = () => {
     </form>
   );
 };
+
+// ContactForm.prototypes = {
+//   name: PropTypes.string,
+//   number: PropTypes.number,
+//   onSubmit: PropTypes.func,
+// };
